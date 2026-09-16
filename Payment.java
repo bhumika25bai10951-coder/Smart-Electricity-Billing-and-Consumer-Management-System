@@ -1,8 +1,7 @@
 public class Payment {
 
     String paymentStatus;
-
-    // Constructor
+    
     public Payment(String payment) {
 
         if (payment.equalsIgnoreCase("yes")) {
@@ -12,9 +11,8 @@ public class Payment {
         }
     }
 
-    // Display payment status
     public void displayPaymentStatus() {
 
-        System.out.println("Payment Status    : " + paymentStatus);
+        System.out.println("Payment Status: " + paymentStatus);
     }
 }
