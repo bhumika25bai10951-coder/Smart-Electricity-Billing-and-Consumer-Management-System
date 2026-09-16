@@ -9,16 +9,13 @@ public class Bill {
     double tax;
     double totalBill;
 
-    // Constructor
     public Bill(int previousReading, int currentReading) {
 
         this.previousReading = previousReading;
         this.currentReading = currentReading;
 
-        // Calculate units
         units = currentReading - previousReading;
 
-        // Calculate charges
         energyCharge = BillCalculator.calculateBill(units);
 
         fixedCharge = 100;
@@ -28,7 +25,6 @@ public class Bill {
         totalBill = energyCharge + fixedCharge + tax;
     }
 
-    // Display bill
     public void displayBill() {
 
         System.out.println("--------------------------------------");
