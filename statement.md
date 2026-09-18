@@ -1,16 +1,16 @@
-# ⚡ Electricity Bill Management System
+Electricity Bill Management System
 
-## 1. Problem Statement
+1. Problem Statement
 
 Managing electricity bills manually can be time-consuming and may lead to calculation errors. Electricity departments need to maintain customer information, meter readings, unit consumption, bill amounts, and payment status.
 
-The **Electricity Bill Management System** is developed as a Java-based console application to simplify the electricity billing process. The system takes customer details and meter readings as input, calculates the electricity units consumed, applies the defined tariff rates, adds fixed charges and tax, and generates the final bill.
+The Smart Electricity Bill Management System is developed as a Java-based console application to simplify the electricity billing process. The system takes customer details and meter readings as input, calculates the electricity units consumed, applies the defined tariff rates, adds fixed charges and tax, and generates the final bill.
 
-The system also allows the payment status of the generated bill to be displayed as **PAID** or **PENDING**.
+The system also allows the payment status of the generated bill to be displayed as PAID or PENDING.
 
 ---
 
-## 2. Scope of the Project
+2. Scope of the Project
 
 The scope of this project includes the basic management and calculation of electricity bills.
 
@@ -25,32 +25,28 @@ The system can:
 * Display the payment status.
 * Validate meter readings.
 
-The current version is a **console-based Java application**. It can later be extended with database connectivity, graphical user interface, multiple customer records, and online payment functionality.
+The current version is a console-based Java application. It can later be extended with database connectivity, graphical user interface, multiple customer records, and online payment functionality.
 
 ---
 
-## 3. Target Users
+3. Target Users
 
 The main target users of this system are:
 
-### 👨‍💼 Electricity Department Staff
-
+Electricity Department Staff:
 Staff can use the system to enter customer details, meter readings, and generate electricity bills.
 
-### 👤 Electricity Consumers
-
+Electricity Consumers:
 Consumers can use the system to view their electricity consumption, bill amount, and payment status.
 
-### 🎓 Students / Learners
-
+Students / Learners:
 The project can also be used as an educational application to understand Java programming and Object-Oriented Programming concepts.
 
 ---
 
-## 4. High-Level Features
+4. High-Level Features
 
-### 4.1 Customer Management
-
+4.1 Customer Management:
 The system accepts and displays:
 
 * Customer ID
@@ -58,22 +54,17 @@ The system accepts and displays:
 * Meter Number
 * Address
 
-### 4.2 Meter Reading Management
-
+4.2 Meter Reading Management:
 The system accepts:
-
 * Previous meter reading
 * Current meter reading
 
 It automatically calculates:
-
-```text
 Units Consumed = Current Reading - Previous Reading
-```
 
 The system also checks that the current reading is not smaller than the previous reading.
 
-### 4.3 Electricity Bill Calculation
+4.3 Electricity Bill Calculation
 
 The system calculates electricity charges based on the number of units consumed.
 
@@ -87,14 +78,12 @@ The example tariff used in the project is:
 | Above 300 | ₹10/unit |
 
 Additional charges include:
-
 * Fixed charge: ₹100
 * Tax: 5% of energy charges
 
-> **Note:** These tariff values are example values used for academic purposes and can be modified according to project requirements.
+Note: These tariff values are example values used for academic purposes and can be modified according to project requirements.
 
-### 4.4 Bill Generation
-
+4.4 Bill Generation:
 The system generates a bill containing:
 
 * Customer details
@@ -105,25 +94,15 @@ The system generates a bill containing:
 * Tax
 * Total bill amount
 
-### 4.5 Payment Status
-
+4.5 Payment Status:
 The system accepts the payment status from the user and displays:
-
-```text
 PAID
-```
-
 or
-
-```text
 PENDING
-```
 
 ---
 
-## 5. Project Workflow
-
-```text
+5. Project Workflow:
 Customer Details
        ↓
 Meter Readings
@@ -141,64 +120,51 @@ Calculate Total Bill
 Payment Status
        ↓
 Display Final Bill
-```
 
 ---
 
-## 6. Technologies Used
+6. Technologies Used
 
-* **Programming Language:** Java
-* **Programming Concept:** Object-Oriented Programming
-* **Input Handling:** Scanner
-* **Application Type:** Console-Based Application
-* **Development Environment:** VS Code / Java IDE
+* Programming Language:Java
+* Programming Concept:Object-Oriented Programming
+* Input Handling:Scanner
+* Application Type:Console-Based Application
+* Development Environment:VS Code / Java IDE
 
 ---
 
-## 7. Java Classes
-
+7. Java Classes
 The project is divided into five Java classes:
-
-```text
 Main.java
 Customer.java
 BillCalculator.java
 Bill.java
 Payment.java
-```
 
-### Main.java
-
+Main.Java:
 Controls the complete application and takes input from the user.
 
-### Customer.java
-
+Customer.java:
 Stores customer information.
 
-### BillCalculator.java
-
+BillCalculator.java:
 Calculates electricity charges based on units consumed.
 
-### Bill.java
-
+Bill.java:
 Calculates and displays the complete bill.
 
-### Payment.java
-
+Payment.java:
 Handles the payment status of the bill.
 
 ---
 
-## 8. Expected Outcome
-
+8. Expected Outcome:
 The expected outcome of this project is a simple Java application that can automatically calculate an electricity bill from meter readings and display the complete bill information.
-
 The project demonstrates how Java classes can be divided into separate modules to create a structured and maintainable application.
 
 ---
 
-## 9. Future Scope
-
+9. Future Scope:
 The project can be further improved by adding:
 
 * MySQL database connectivity.
@@ -214,8 +180,7 @@ The project can be further improved by adding:
 
 ---
 
-## 10. Conclusion
-
-The **Electricity Bill Management System** provides a simple computerized solution for electricity bill calculation. It reduces manual calculations and provides a structured way to manage customer information, meter readings, bill calculation, and payment status.
+10. Conclusion
+The Smart Electricity Bill Management System provides a simple computerized solution for electricity bill calculation. It reduces manual calculations and provides a structured way to manage customer information, meter readings, bill calculation, and payment status.
 
 The project also provides practical experience with Java, Object-Oriented Programming, modular programming, input handling, and basic validation.
