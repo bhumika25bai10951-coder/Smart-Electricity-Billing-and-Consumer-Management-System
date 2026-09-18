@@ -12,7 +12,6 @@ public class Payment {
     }
 
     public void displayPaymentStatus() {
-
         System.out.println("Payment Status: " + paymentStatus);
     }
 }
