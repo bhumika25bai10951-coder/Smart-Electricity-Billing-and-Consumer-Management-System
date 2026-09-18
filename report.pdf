@@ -1,16 +1,16 @@
-# Electricity Bill Management System
+Electricity Bill Management System
 
-## 1. Introduction
+1. Introduction
 
 The Electricity Bill Management System is a Java-based application developed to simplify the basic process of electricity bill calculation. The system takes customer details and meter readings as input and calculates the total electricity bill based on the units consumed.
 
 I developed this project to apply Java concepts such as **classes, objects, constructors, methods, conditional statements, input handling, and modular programming** in a practical application.
 
-## 2. Problem Statement
+2. Problem Statement
 
 Electricity bill calculation involves different unit rates, fixed charges, and taxes. Doing these calculations manually can result in errors. The purpose of this project is to provide a simple system that performs these calculations automatically and displays the bill clearly.
 
-## 3. Objectives
+3. Objectives
 
 The main objectives of this project are:
 
@@ -21,11 +21,11 @@ The main objectives of this project are:
 * To display the final bill in a clear format.
 * To implement Java OOP concepts in a practical project.
 
-## 4. Scope
+4. Scope
 
 The current project is a **console-based application** mainly focused on electricity bill calculation. It can be further developed into a complete billing system by adding a database, graphical interface, user login and online payment features.
 
-## 5. Functional Requirements
+5. Functional Requirements
 
 The system provides the following functions:
 
@@ -38,14 +38,14 @@ The system provides the following functions:
 7. Display payment status.
 8. Validate meter readings.
 
-## 6. Non-Functional Requirements
+6. Non-Functional Requirements
 
 * **Usability:** The system should be simple to operate.
 * **Accuracy:** Bill calculations should follow the defined slab rates.
 * **Reliability:** Invalid meter readings should be handled properly.
 * **Maintainability:** Different functions are separated into different classes.
 
-## 7. Technologies Used
+7. Technologies Used
 
 * **Programming Language:** Java
 * **Concepts:** Object-Oriented Programming
@@ -53,7 +53,7 @@ The system provides the following functions:
 * **IDE:** VS Code
 * **Version Control:** Git and GitHub
 
-## 8. System Architecture
+8. System Architecture
 
 The project follows a simple modular structure:
 
@@ -61,7 +61,7 @@ The project follows a simple modular structure:
 
 Each class has a specific responsibility, which makes the program easier to understand and modify.
 
-## 9. Project Structure
+9. Project Structure
 
 The project contains five main Java classes:
 
@@ -71,7 +71,7 @@ The project contains five main Java classes:
 * **Payment.java** – manages payment status.
 * **Main.java** – handles user input and connects all the modules.
 
-## 10. Working of the System
+10. Working of the System
 
 First, the user enters the customer information such as customer ID, name, meter number and address.
 
