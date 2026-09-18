@@ -24,7 +24,7 @@ public class Main {
         String address = sc.nextLine();
 
         Customer customer =
-                new Customer(customerId, name, meterNumber, address);
+             new Customer(customerId, name, meterNumber, address);
 
         System.out.print("Enter Previous Meter Reading: ");
         int previousReading = sc.nextInt();
