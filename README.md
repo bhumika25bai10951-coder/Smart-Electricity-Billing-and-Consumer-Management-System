@@ -78,9 +78,7 @@ The user can enter:
 
 text
 yes
-
 or
-
 text
 no
 
@@ -88,9 +86,7 @@ The system then displays:
 
 text
 PAID
-
 or
-
 text
 PENDING
 
@@ -146,9 +142,7 @@ Description of Files
 | README.md           | Contains project documentation                      |
 
 
-System Workflow
-
-
+System Workflow:
 START
   ↓
 Enter Customer Details
@@ -174,7 +168,7 @@ Display Electricity Bill
 END
 
 
-Input
+Input:
 
 The system requires the following information:
 
@@ -186,7 +180,7 @@ Previous Meter Reading
 Current Meter Reading
 Payment Status
 
-Output
+Output:
 
 The system generates an electricity bill similar to:
 
@@ -251,7 +245,7 @@ bash
 java Main
 
 
-Testing
+Testing:
 
 The project can be tested using different meter readings.
 Test Case 1: Valid Reading
@@ -305,7 +299,6 @@ Error: Current reading cannot be less than previous reading.
 
 
 Future Enhancements:
-
 The current project is a basic console application. It can be improved by adding:
 * Admin and customer login.
 * Multiple customer records.
@@ -334,16 +327,14 @@ After completing this project, we can understand:
 * How to create a modular Java application.
 
 
- Project Type
-
+Project Type:
 Academic / Educational Project
 Language:Java
 Application Type:Console-Based Application
 Domain:Electricity / Utility Management
 
 
-Conclusion
-
+Conclusion:
 The "Electricity Bill Management System" provides a simple way to calculate and display electricity bills using Java. It reduces the need for manual calculations and demonstrates important Java programming and Object-Oriented Programming concepts.
 
 The project can later be extended with database connectivity, a graphical interface, multiple users, payment processing, and bill history to create a more complete electricity management system.
