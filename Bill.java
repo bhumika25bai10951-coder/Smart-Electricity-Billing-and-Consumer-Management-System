@@ -19,9 +19,7 @@ public class Bill {
         energyCharge = BillCalculator.calculateBill(units);
 
         fixedCharge = 100;
-
         tax = energyCharge * 0.05;
-
         totalBill = energyCharge + fixedCharge + tax;
     }
 
